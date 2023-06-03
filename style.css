@@ -40,7 +40,7 @@ main {
   line-height: 50px;
   text-transform: uppercase;
   text-shadow: 1px 0 0 #fff;
-  margin-bottom: 10px; /* Add margin-bottom for spacing */
+  margin-bottom: 20px; /* Add margin-bottom for spacing */
 }
 .input-box {
   margin: 30px 0;
