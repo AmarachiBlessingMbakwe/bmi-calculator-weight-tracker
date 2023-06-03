@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+/* body {
+  background: url(img/image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: brightness(50%);
+} */
+
+body {
+  background-color: #ffffff; /* Set background color to white */
+}
+
+.logo {
+  background: url(img/image.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 200px; /* Adjust the height according to your logo's dimensions */
+  width: 100%; /* Adjust the width according to your logo's dimensions */
+  margin-bottom: 20px; /* Add margin-bottom for spacing */
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
+.scale {
+  color: #7f0b07;
+  font-size: 50px;
+  line-height: 50px;
+  text-transform: uppercase;
+  text-shadow: 1px 0 0 #fff;
+  margin-bottom: 20px; /* Add margin-bottom for spacing */
+}
+.input-box {
+  margin: 30px 0;
+}
+input {
+  padding: 15px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: #ecf0f3;
+  box-shadow: 5px 5px 20px 5px #5c5b5b;
+  color: #464646;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+input:nth-child(2) {
+  margin-left: 5px;
+}
+
+select {
+  padding: 15px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: #ecf0f3;
+  box-shadow: 5px 5px 20px 5px #5c5b5b;
+  color: #464646;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.language-select select {
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: #ecf0f3;
+  box-shadow: 5px 5px 20px 5px #5c5b5b;
+  color: #464646;
+  font-size: 16px;
+  margin-top: 40px;
+}
+
+.resInfo {
+  text-shadow: 1px 0 2px #fff;
+  text-align: center;
+  margin: 10px 5%;
+  height: 35px;
+}
+button {
+  padding: 16px;
+  border-radius: 10px;
+  width: 150px;
+  cursor: pointer;
+}
+.calBtn {
+  background-color: #004900;
+  color: #ffffff;
+  border: 2px solid #004900;
+  margin-right: 5px;
+}
+.calBtn:hover {
+  background-color: #008000;
+  border: 2px solid #008000;
+}
+.clrBtn {
+  background-color: #000081;
+  color: #ffffff;
+  border: 2px solid #000081;
+}
+.clrBtn:hover {
+  background-color: #0c0cfd;
+  border: 2px solid #0c0cfd;
+}
