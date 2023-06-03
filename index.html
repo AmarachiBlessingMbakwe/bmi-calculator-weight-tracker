@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Body Mass Index Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        /* Styles for larger screens */
+        @media (min-width: 1024px) {
+          .container {
+            max-width: 800px;
+            margin: 0 auto;
+          }
+          
+          /* Adjust font size for larger screens */
+          .resInfo {
+            font-size: 24px;
+          }
+        }
+        
+        /* Styles for smaller screens */
+        @media (max-width: 767px) {
+          .container {
+            padding: 20px;
+          }
+          
+          /* Adjust font size for smaller screens */
+          .resInfo {
+            font-size: 16px;
+          }
+        }
+      </style>      
+  </head>
+  <body>
+    <main>
+    <div class="container">
+      <div class="header">
+        <h1 class="scale">Body Mass Index Calculator</h1>
+      </div>
+      <div class="header logo">
+        <h1 class="scale"></h1>
+      </div>
+      <div class="input-box">
+        <input type="text" id="weight" placeholder="Weight" />
+        <input type="text" id="height" placeholder="Height" />
+        <select id="unitSelect">
+          <option value="us-metric">US Metric (lbs, feet)</option>
+          <option value="metric">Metric (kg, cm)</option>
+        </select>
+        <h3 class="resInfo"></h3>
+      </div>
+      <div class="scale-btn">
+        <button class="calBtn">Calculate BMI</button>
+        <button class="clrBtn">Clear Values</button>
+      </div>
+      <div class="language-select">
+        <select id="languageSelect">
+          <option value="en">English</option>
+          <option value="es">Spanish</option>
+          <option value="zh">Chinese</option>
+          <option value="ig">Igbo</option>
+          <option value="yo">Yoruba</option>
+        </select>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
