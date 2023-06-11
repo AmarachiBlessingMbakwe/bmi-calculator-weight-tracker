@@ -82,9 +82,9 @@ function bmiCalculation() {
           1
         )} ma gị na-agba ụgwọ, biko tinye aka ụgwọ gị.`;
       } else if (selectedLanguage === "yo") {
-        resInfo.textContent = `Bawo ni, BMI rẹ jẹ ${bmi.toFixed(
+        resInfo.textContent = `Kaabo, BMI rẹ jẹ ${bmi.toFixed(
           1
-        )} ati ojulowo, jọwọ jẹ ki ojulowo rẹ jẹ pẹlu.`;
+        )} ati pe o ko ni iwuwo, jọwọ gbiyanju ki o ṣafikun iwuwo.`;
       }
       resInfo.style.color = "blue";
     } else if (bmi <= 24.9) {
@@ -105,9 +105,9 @@ function bmiCalculation() {
           1
         )} Ekele! ụgwọ gị na-ezọla ahụ.`;
       } else if (selectedLanguage === "yo") {
-        resInfo.textContent = `Bawo ni, BMI rẹ jẹ ${bmi.toFixed(
+        resInfo.textContent = `Kaabo, BMI rẹ jẹ ${bmi.toFixed(
           1
-        )} E ku ojo ibi! ojulowo rẹ jẹ ti nkan iṣọtun.`;
+        )} O ku Oriire! Iwuwo re se deede.`;
       }
       resInfo.style.color = "green";
     } else if (bmi <= 29.9) {
@@ -128,9 +128,9 @@ function bmiCalculation() {
           1
         )} ma gị na-ajụjụọ, biko tinye aka ịrụ ejịm ejị na-amụ ama ụgwọ.`;
       } else if (selectedLanguage === "yo") {
-        resInfo.textContent = `Bawo ni, BMI rẹ jẹ ${bmi.toFixed(
+        resInfo.textContent = `Kaabo, BMI rẹ jẹ ${bmi.toFixed(
           1
-        )} ati ojulowo, jọwọ jẹ ki ojulowo rẹ jẹ pẹlu iṣọtun ati jẹun titi daju fun ojulowo.`;
+        )} ati pe o jẹ iwọn apọju, jọwọ gbiyanju adaṣe ati jẹun ni ilera lati padanu iwuwo.`;
       }
       resInfo.style.color = "yellow";
     } else if (bmi <= 34.9) {
@@ -151,9 +151,9 @@ function bmiCalculation() {
           1
         )} Biko tinye ka eji eme ihe na-eme na-enye otutu. Ọ bụrụ na gị na-achọụzọ ọgwụgwọ.`;
       } else if (selectedLanguage === "yo") {
-        resInfo.textContent = `Bawo ni, BMI rẹ jẹ ${bmi.toFixed(
+        resInfo.textContent = `Kaabo BMI rẹ jẹ ${bmi.toFixed(
           1
-        )} Jọwọ ṣẹ iduro si dokita fun iṣẹ irawọ nitori o jẹ obìnrin to wuwo. `;
+        )} Jọwọ ṣabẹwo si dokita kan fun imọran nitori pe o sanra gaan.`;
       }
       resInfo.style.color = "orange";
     } else if (bmi >= 35) {
@@ -170,13 +170,13 @@ function bmiCalculation() {
           1
         )} 请咨询医生的建议，因为你极度肥胖。`;
       } else if (selectedLanguage === "ig") {
-        resInfo.textContent = `Ndeewo, IMC gị bụ ${bmi.toFixed(
+        resInfo.textContent = `Ndeewo, BMI gị bụ ${bmi.toFixed(
           1
         )} Biko tinye ka eji eme ihe na-eme na-enye otutu. Ọ bụrụ na gị na-agba ọgwụgwọ n'efu.`;
       } else if (selectedLanguage === "yo") {
-        resInfo.textContent = `Bawo ni, BMI rẹ jẹ ${bmi.toFixed(
+        resInfo.textContent = `Kaabo BMI rẹ jẹ${bmi.toFixed(
           1
-        )} Jọwọ ṣẹ iduro si dokita fun iṣẹ irawọ nitori o jẹ obìnrin ti o pẹlu.`;
+        )} Jọwọ ṣabẹwo si dokita kan fun imọran nitori pe o sanra pupọ.`;
       }
       resInfo.style.color = "red";
     } else {
@@ -206,9 +206,9 @@ function bmiCalculation() {
           1
         )} ma gị na-agba ụgwọ, biko tinye aka ụgwọ gị.`;
       } else if (selectedLanguage === "yo") {
-        resInfo.textContent = `Bawo ni, BMI rẹ jẹ ${bmi.toFixed(
+        resInfo.textContent = `Kaabo, BMI rẹ jẹ ${bmi.toFixed(
           1
-        )} ati ojulowo, jọwọ jẹ ki ojulowo rẹ jẹ pẹlu.`;
+        )} ati pe o ko ni iwuwo, jọwọ gbiyanju ki o ṣafikun iwuwo.`;
       }
       resInfo.style.color = "blue";
     } else if (bmi <= 24.9) {
@@ -225,13 +225,13 @@ function bmiCalculation() {
           1
         )} 恭喜！你的体重正常。`;
       } else if (selectedLanguage === "ig") {
-        resInfo.textContent = `Ndeewo, IMC gị bụ ${bmi.toFixed(
+        resInfo.textContent = `Ndeewo, BMI gị bụ ${bmi.toFixed(
           1
         )} Ekele! ụgwọ gị na-ezọla ahụ.`;
       } else if (selectedLanguage === "yo") {
-        resInfo.textContent = `Bawo ni, BMI rẹ jẹ ${bmi.toFixed(
+        resInfo.textContent = `Kaabo, BMI rẹ jẹ ${bmi.toFixed(
           1
-        )} E ku ojo ibi! ojulowo rẹ jẹ ti nkan iṣọtun.`;
+        )} O ku Oriire! Iwuwo re se deede.`;
       }
       resInfo.style.color = "green";
     } else if (bmi <= 29.9) {
@@ -248,13 +248,13 @@ function bmiCalculation() {
           1
         )}，你超重了，请尝试锻炼和健康饮食来减肥。`;
       } else if (selectedLanguage === "ig") {
-        resInfo.textContent = `Ndeewo, IMC gị bụ ${bmi.toFixed(
+        resInfo.textContent = `Ndeewo, BMI gị bụ ${bmi.toFixed(
           1
         )} ma gị na-ajụjụọ, biko tinye aka ịrụ ejịm ejị na-amụ ama ụgwọ.`;
       } else if (selectedLanguage === "yo") {
-        resInfo.textContent = `Bawo ni, BMI rẹ jẹ ${bmi.toFixed(
+        resInfo.textContent = `Kaabo, BMI rẹ jẹ ${bmi.toFixed(
           1
-        )} ati ojulowo, jọwọ jẹ ki ojulowo rẹ jẹ pẹlu iṣọtun ati jẹun titi daju fun ojulowo.`;
+        )} ati pe o jẹ iwọn apọju, jọwọ gbiyanju adaṣe ati jẹun ni ilera lati padanu iwuwo.`;
       }
       resInfo.style.color = "yellow";
     } else if (bmi <= 34.9) {
@@ -271,13 +271,13 @@ function bmiCalculation() {
           1
         )} 请咨询医生的建议，因为你实际上是肥胖的。`;
       } else if (selectedLanguage === "ig") {
-        resInfo.textContent = `Ndeewo, IMC gị bụ ${bmi.toFixed(
+        resInfo.textContent = `Ndeewo, BMI gị bụ ${bmi.toFixed(
           1
         )} Biko tinye ka eji eme ihe na-eme na-enye otutu. Ọ bụrụ na gị na-achọụzọ ọgwụgwọ.`;
       } else if (selectedLanguage === "yo") {
-        resInfo.textContent = `Bawo ni, BMI rẹ jẹ ${bmi.toFixed(
+        resInfo.textContent = `Kaabo BMI rẹ jẹ ${bmi.toFixed(
           1
-        )} Jọwọ ṣẹ iduro si dokita fun iṣẹ irawọ nitori o jẹ obìnrin to wuwo. `;
+        )} Jọwọ ṣabẹwo si dokita kan fun imọran nitori pe o sanra gaan.`;
       }
       resInfo.style.color = "orange";
     } else if (bmi >= 35) {
@@ -294,13 +294,13 @@ function bmiCalculation() {
           1
         )} 请咨询医生的建议，因为你极度肥胖。`;
       } else if (selectedLanguage === "ig") {
-        resInfo.textContent = `Ndeewo, IMC gị bụ ${bmi.toFixed(
+        resInfo.textContent = `Ndeewo, BMI gị bụ ${bmi.toFixed(
           1
         )} Biko tinye ka eji eme ihe na-eme na-enye otutu. Ọ bụrụ na gị na-agba ọgwụgwọ n'efu.`;
       } else if (selectedLanguage === "yo") {
-        resInfo.textContent = `Bawo ni, BMI rẹ jẹ ${bmi.toFixed(
+        resInfo.textContent = `Kaabo BMI rẹ jẹ${bmi.toFixed(
           1
-        )} Jọwọ ṣẹ iduro si dokita fun iṣẹ irawọ nitori o jẹ obìnrin ti o pẹlu.`;
+        )} Jọwọ ṣabẹwo si dokita kan fun imọran nitori pe o sanra pupọ.`;
       }
       resInfo.style.color = "red";
     } else {
